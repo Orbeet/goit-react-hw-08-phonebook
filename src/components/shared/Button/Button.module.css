@@ -1,0 +1,20 @@
+.button {
+    width: 450px;
+    font-size: 18px;
+    line-height: 22px;
+    display: block;
+    margin: 0 auto;
+    height: 40px;
+    background-color: #0039d4;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: linear 200ms background-color;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #0b48f0;
+}

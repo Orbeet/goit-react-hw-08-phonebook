@@ -1,0 +1,24 @@
+.navigation {
+    flex: 0 0 50%;
+}
+
+.list {
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 24px;
+}
+
+.item {
+    list-style: none;
+}
+
+.item:not(:first-child) {
+    padding-left: 15px;
+}
+
+.link {
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
